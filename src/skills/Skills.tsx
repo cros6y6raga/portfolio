@@ -9,9 +9,9 @@ function Skills() {
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
                 <div className={style.skills}></div>
-                <Skill/>
-                <Skill/>
-                <Skill/>
+                <Skill title={'JS'}/>
+                <Skill title={'CSS'}/>
+                <Skill title={'React'}/>
             </div>
         </div>
     );
