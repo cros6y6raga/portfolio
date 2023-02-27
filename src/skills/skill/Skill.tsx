@@ -3,6 +3,7 @@ import style from './Skill.module.css';
 
 type PropsType = {
     title: string
+    description: string
 }
 
 function Skill(props: PropsType) {
@@ -10,7 +11,9 @@ function Skill(props: PropsType) {
         <div className={style.skill}>
             <div className={style.icon}></div>
             <h3>{props.title}</h3>
-            <div className='description'></div>
+            <span className={style.description}>
+                {props.description}
+            </span>
         </div>
     );
 }
