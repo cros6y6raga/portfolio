@@ -8,10 +8,17 @@ function Skills() {
         <div className={style.skillsBlock}>
             <div className={`${styleContainer.container} ${style.skillsContainer}`}>
                 <h2 className={style.title}>Skills</h2>
-                <div className={style.skills}></div>
-                <Skill title={'JS'} description={'A'}/>
-                <Skill title={'CSS'} description={'B'}/>
-                <Skill title={'React'} description={'C'}/>
+                <div className={style.skills}>
+                <Skill title={'JS'}
+                       description={'It is a long established fact that a reader will be distracted by the readable ' +
+                           'content of a page when looking at its layout.'}/>
+                <Skill title={'CSS'}
+                       description={'It is a long established fact that a reader will be distracted by the readable ' +
+                           'content of a page when looking at its layout.'}/>
+                <Skill title={'React'}
+                       description={'It is a long established fact that a reader will be distracted by the readable ' +
+                           'content of a page when looking at its layout.'}/>
+                </div>
             </div>
         </div>
     );
