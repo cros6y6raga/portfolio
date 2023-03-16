@@ -9,8 +9,12 @@ function Works() {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <h2 className={style.title}>My works</h2>
                 <div className={style.works}>
-                    <Work/>
-                    <Work/>
+                    <Work title={'Task-list'}
+                          description={'It is a long established fact that a reader will be distracted by the readable ' +
+                              'content of a page when looking at its layout.'}/>
+                    <Work title={'Social-network'}
+                          description={'It is a long established fact that a reader will be distracted by the readable ' +
+                              'content of a page when looking at its layout.'}/>
                 </div>
             </div>
         </div>
