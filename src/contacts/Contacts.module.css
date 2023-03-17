@@ -18,8 +18,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 40px;
 }
 
 .contactsInput {
     margin-bottom: 5px;
+}
+
+.contactsTextarea {
+    height: 100px;
+}
+
+.contactsSend {
+    text-decoration: none;
+    padding: 10px;
+    background-color: darkgrey;
 }

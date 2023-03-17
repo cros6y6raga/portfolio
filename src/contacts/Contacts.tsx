@@ -12,7 +12,7 @@ function Contacts() {
                     <input className={style.contactsInput} type="text"/>
                     <textarea className={style.contactsTextarea} name="" id=""></textarea>
                 </form>
-                <a href="">Отправить</a>
+                <a className={style.contactsSend} href="">Отправить</a>
             </div>
         </div>
     );
