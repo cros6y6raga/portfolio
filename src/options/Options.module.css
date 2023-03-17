@@ -1,6 +1,6 @@
 .optionsBlock {
     min-height: 100vh;
-    background-color: purple;
+    background-color: tan;
 }
 
 .optionsContainer {
@@ -9,5 +9,10 @@
 }
 
 .title {
+    background-color: darkgrey;
+}
+.hire{
+    text-decoration: none;
+    padding: 10px;
     background-color: darkgrey;
 }
