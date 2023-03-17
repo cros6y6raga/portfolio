@@ -1,21 +1,13 @@
-.worksBlock {
+.optionsBlock {
     min-height: 100vh;
     background-color: purple;
 }
 
-.worksContainer {
+.optionsContainer {
     flex-direction: column;
     justify-content: flex-start;
 }
 
 .title {
     background-color: darkgrey;
-}
-
-.works {
-    border: 1px solid;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
 }

@@ -4,6 +4,7 @@ import Header from "./header/Header";
 import Main from "./main/Main";
 import Skills from "./skills/Skills";
 import Works from "./works/Works";
+import Options from "./options/Options";
 
 function App() {
     return (
@@ -12,6 +13,7 @@ function App() {
             <Main/>
             <Skills/>
             <Works/>
+            <Options/>
         </div>
     );
 }
