@@ -11,3 +11,15 @@
 .title {
     background-color: darkgrey;
 }
+
+.contactsForm {
+    width: 350px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactsInput {
+    margin-bottom: 5px;
+}
