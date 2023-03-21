@@ -1,5 +1,5 @@
 .contactsBlock {
-    min-height: 100vh;
+    /*min-height: 100vh;*/
     background-color: mediumpurple;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .contactsForm {
-    width: 100%;
+    width: 280px;
     border: 1px solid;
     display: flex;
     flex-direction: column;
