@@ -11,6 +11,10 @@
     background-color: darkgrey;
 }
 
+.title h2 {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
 .works {
     border: 1px solid;
     width: 100%;

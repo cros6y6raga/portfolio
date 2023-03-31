@@ -7,7 +7,9 @@ function Works() {
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
-                <h2 className={style.title}>My works</h2>
+                <div className={style.title}>
+                    <h2>My works</h2>
+                </div>
                 <div className={style.works}>
                     <Work title={'Task-list'}
                           description={'It is a long established fact that a reader will be distracted by the readable ' +
