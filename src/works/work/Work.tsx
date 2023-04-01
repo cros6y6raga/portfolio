@@ -15,7 +15,7 @@ function Work(props: PropsType) {
                 </a>
             </div>
             <h3 className={style.workTitle}>{props.title}</h3>
-            <span>{props.description}</span>
+            <span className={style.description}>{props.description}</span>
         </div>
     );
 }
