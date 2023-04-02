@@ -5,6 +5,10 @@ import Work from "./work/Work";
 import Title from "../common/components/title/Title";
 
 function Works() {
+    // const social = {
+    //
+    //     backgroundImage: 'url(' + imgUrl + ')',
+    // };
     return (
         <div className={style.worksBlock}>
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
