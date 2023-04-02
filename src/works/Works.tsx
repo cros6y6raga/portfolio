@@ -1,8 +1,8 @@
 import React from 'react';
 import style from './Works.module.css';
 import styleContainer from '../common/styles/Container.module.css'
-import Work from "./work/Work";
-import Title from "../common/components/title/Title";
+import Work from './work/Work';
+import Title from '../common/components/title/Title';
 
 function Works() {
     // const social = {
