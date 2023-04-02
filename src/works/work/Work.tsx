@@ -3,13 +3,14 @@ import style from './Work.module.css';
 
 type PropsType = {
     title: string,
-    description: string
+    description: string,
+    style:any
 }
 
 function Work(props: PropsType) {
     return (
         <div className={style.work}>
-            <div className={style.imgContainer}>
+            <div className={style.imgContainer} style={props.style}>
                 <a className={style.aWork} href="#">
                     Посмотреть
                 </a>
