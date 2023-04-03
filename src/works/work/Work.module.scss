@@ -1,4 +1,5 @@
 @import '../../common/styles/sass/Variables';
+@import '../../common/styles/sass/Mixins';
 
 .work {
   width: 250px;
@@ -44,12 +45,9 @@
     padding: 25px 20px;
 
     .workTitle {
-      font-family: 'Josefin Sans', sans-serif;
-      font-size: 16px;
+      @include text($fontFamily,16px, 1.2);
       letter-spacing: 1px;
       margin: 0 0 5px;
-      line-height: 1.2;
-      color: $textColor;
     }
 
     .description {
