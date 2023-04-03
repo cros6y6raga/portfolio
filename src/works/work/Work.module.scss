@@ -1,0 +1,61 @@
+.work {
+  width: 250px;
+  background-color: #252527;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  .imgContainer {
+    width: 100%;
+    height: 200px;
+    /*background-image: url("https://i.pinimg.com/736x/dc/55/db/dc55db0b2acde4a52e0d81c835110eb2.jpg");*/
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: '';
+      background-color: black;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      opacity: 0.4;
+    }
+
+    .workButton {
+      text-decoration: none;
+      padding: 10px;
+      background-color: darkgrey;
+      position: relative;
+      z-index: 1;
+    }
+  }
+
+  .projectInfo {
+    padding: 25px 20px;
+
+    .workTitle {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 16px;
+      letter-spacing: 1px;
+      margin: 0 0 5px;
+      line-height: 1.2;
+      color: #fff;
+    }
+
+    .description {
+      font-family: 'Poppins', sans-serif;
+      line-height: 1.8;
+      font-weight: 400;
+      font-size: 14px;
+      color: #fff;
+    }
+  }
+}
