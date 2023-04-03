@@ -11,7 +11,7 @@ function Work(props: PropsType) {
     return (
         <div className={style.work}>
             <div className={style.imgContainer} style={props.style}>
-                <a className={style.aWork} href="#">
+                <a className={style.workButton} href="#">
                     Посмотреть
                 </a>
             </div>

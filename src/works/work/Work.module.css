@@ -36,10 +36,12 @@
     height: 200px;
 }
 
-.aWork {
+.workButton {
     text-decoration: none;
     padding: 10px;
     background-color: darkgrey;
+    position: relative;
+    z-index: 1;
 }
 
 .projectInfo {
