@@ -1,6 +1,8 @@
+@import '../../common/styles/sass/Variables';
+
 .work {
   width: 250px;
-  background-color: #252527;
+  background-color: $bgColor;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -32,7 +34,7 @@
     .workButton {
       text-decoration: none;
       padding: 10px;
-      background-color: darkgrey;
+      background-color: $primaryColor;
       position: relative;
       z-index: 1;
     }
@@ -47,7 +49,7 @@
       letter-spacing: 1px;
       margin: 0 0 5px;
       line-height: 1.2;
-      color: #fff;
+      color: $textColor;
     }
 
     .description {
@@ -55,7 +57,7 @@
       line-height: 1.8;
       font-weight: 400;
       font-size: 14px;
-      color: #fff;
+      color: $textColor;
     }
   }
 }
