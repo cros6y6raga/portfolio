@@ -1,8 +1,10 @@
 import React from 'react';
-import style from './Main.module.css';
+import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
+import mainImage from '../assets/image/EhZRBnTnFcA.jpg';
 
 function Main() {
+
     return (
         <div className={style.mainBlock}>
             <div className={styleContainer.container}>
@@ -12,6 +14,7 @@ function Main() {
                     <p>Front-end developer</p>
                 </div>
                 <div className={style.photo}>
+                    <img className={style.mainImg} src={mainImage} alt=""/>
                 </div>
             </div>
         </div>
