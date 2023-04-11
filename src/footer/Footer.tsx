@@ -13,7 +13,6 @@ function Footer() {
                     <div className={style.social}></div>
                     <div className={style.social}></div>
                 </div>
-                <span>Все права защищены</span>
             </div>
         </div>
     );
