@@ -1,0 +1,12 @@
+@import '../common/styles/sass/Variables';
+@import '../common/styles/sass/Mixins';
+
+.header {
+    font-family: $TitleFontFamily;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: $bgColor;
+}
