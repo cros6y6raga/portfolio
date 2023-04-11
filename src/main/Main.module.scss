@@ -3,13 +3,29 @@
 
 .mainBlock {
   height: 100vh;
+  background-color: $bgColor;
 }
 
 .text {
   width: 300px;
+  color: $textColor;
+  font-family: $TitleFontFamily;
+  font-size: 22px;
 }
 
 .mainImg {
   width: 300px;
   height: 400px;
+}
+
+@media screen and (max-width: 752px) {
+  .mainBlock {
+    height: 100%
+  }
+  .text {
+
+  }
+  .mainImg {
+
+  }
 }
