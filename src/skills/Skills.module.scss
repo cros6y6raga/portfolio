@@ -1,5 +1,8 @@
+@import '../common/styles/sass/Variables';
+@import '../common/styles/sass/Mixins';
+
 .skillsBlock {
-    background-color: mediumseagreen;
+    background-color: $bgColor;
 }
 
 .skillsContainer {
@@ -8,11 +11,10 @@
 }
 
 .title {
-    background-color: darkgrey;
+    background-color: $textColor;
 }
 
 .skills {
-    border: 1px solid;
     width: 100%;
     display: flex;
     justify-content: space-between;
