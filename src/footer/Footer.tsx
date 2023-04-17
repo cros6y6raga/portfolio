@@ -11,7 +11,6 @@ function Footer() {
                     <div className={style.social}></div>
                     <div className={style.social}></div>
                     <div className={style.social}></div>
-                    <div className={style.social}></div>
                 </div>
             </div>
         </div>
