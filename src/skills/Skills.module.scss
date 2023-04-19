@@ -3,12 +3,10 @@
 
 .skillsBlock {
   background-color: $bgColor;
-
   .skillsContainer {
     flex-direction: column;
     justify-content: flex-start;
   }
-
   .skills {
     width: 100%;
     display: flex;
@@ -17,7 +15,6 @@
     color: $textColor;
     font-family: $TitleFontFamily;
   }
-
   @media screen and (max-width: 624px) {
     .skills {
       flex-direction: column;
