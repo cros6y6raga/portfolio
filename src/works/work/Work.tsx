@@ -12,7 +12,7 @@ function Work(props: PropsType) {
         <div className={style.work}>
             <div className={style.imgContainer} style={props.style}>
                 <a className={style.workButton} href="#">
-                    View
+                    view
                 </a>
             </div>
             <div className={style.projectInfo}>
