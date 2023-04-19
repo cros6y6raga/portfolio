@@ -3,8 +3,8 @@ import style from './Works.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import Work from './work/Work';
 import Title from '../common/components/title/Title';
-import todoImage from '../assets/image/image9.jpg';
-import socialImage from '../assets/image/socialnetworking-13cadb0b8b5941ab999a13c06e468821.jpg';
+import todoImage from '../assets/image/task-list.png';
+import socialImage from '../assets/image/social-network.png';
 
 function Works() {
     const social = {
