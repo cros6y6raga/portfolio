@@ -8,9 +8,9 @@ function Footer() {
             <div className={`${styleContainer.container} ${style.footerContainer}`}>
                 <h2 className={style.title}>Vladimir Brazhnikov</h2>
                 <div className={style.socialContainer}>
-                    <div className={style.social}></div>
-                    <div className={style.social}></div>
-                    <div className={style.social}></div>
+                    <a className={style.social} href="https://github.com/cros6y6raga">GITHUB</a>
+                    <a className={style.social} href="https://vk.com/crosbybraga">VK</a>
+                    <a className={style.social} href="https://t.me/crosbybraga">TELEGRAM</a>
                 </div>
             </div>
         </div>
