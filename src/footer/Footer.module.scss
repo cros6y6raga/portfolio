@@ -1,5 +1,8 @@
+@import '../common/styles/sass/Variables';
+@import '../common/styles/sass/Mixins';
+
 .footerBlock {
-    background-color: goldenrod;
+    background-color: $bgColor;
 }
 
 .footerContainer {
@@ -8,7 +11,8 @@
 }
 
 .title {
-    background-color: darkgrey;
+    color: $textColor;
+    font-family: $TitleFontFamily;
 }
 
 .socialContainer {
@@ -21,5 +25,5 @@
 .social {
     width: 50px;
     height: 50px;
-    background-color: darkgrey;
+    background-color: $textColor;
 }
