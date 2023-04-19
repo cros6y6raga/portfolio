@@ -1,5 +1,8 @@
+@import '../common/styles/sass/Variables';
+@import '../common/styles/sass/Mixins';
+
 .contactsBlock {
-    background-color: mediumpurple;
+    background-color: $bgColor;
 }
 
 .contactsContainer {
@@ -8,7 +11,8 @@
 }
 
 .title {
-    background-color: darkgrey;
+    color: $textColor;
+    font-family: $TitleFontFamily;
 }
 
 .contactsForm {
@@ -29,7 +33,9 @@
 }
 
 .contactsSend {
+    font-family: $TextFontFamily;
+    color: $textColor;
     text-decoration: none;
     padding: 10px;
-    background-color: darkgrey;
+    background-color: $primaryColor;
 }
