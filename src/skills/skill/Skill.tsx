@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Skill.module.scss';
-import skillImage from '../../assets/image/WWF_logo.svg.png';
+import skillImage from '../../assets/image/com-laptop-code-svgrepo-com.svg';
 
 type PropsType = {
     title: string
