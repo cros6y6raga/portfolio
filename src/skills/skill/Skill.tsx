@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Skill.module.scss';
-import skillImage from '../../assets/image/cake-svgrepo-com.png';
+import skillImage from '../../assets/image/WWF_logo.svg.png';
 
 type PropsType = {
     title: string
@@ -11,7 +11,7 @@ function Skill(props: PropsType) {
     return (
         <div className={style.skill}>
             <div className={style.icon}>
-                {/*<img className={skillImage} src={skillImage} alt=""/>*/}
+                <img src={skillImage} alt=""/>
             </div>
             <h3>{props.title}</h3>
             <span className={style.description}>
