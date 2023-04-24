@@ -18,12 +18,18 @@ function Works() {
             <div className={`${styleContainer.container} ${style.worksContainer}`}>
                 <Title text={'My Works'}/>
                 <div className={style.works}>
-                    <Work style={todolist} title={'Task-list'}
+                    <Work style={todolist}
+                          title={'Task-list'}
                           description={'It is a long established fact that a reader will be distracted by the readable ' +
-                              'content of a page when looking at its layout.'}/>
-                    <Work style={social} title={'Social-network'}
+                              'content of a page when looking at its layout.'}
+                          link={'https://cros6y6raga.github.io/task-list/'}
+                    />
+                    <Work style={social}
+                          title={'Social-network'}
                           description={'It is a long established fact that a reader will be distracted by the readable ' +
-                              'content of a page when looking at its layout.'}/>
+                              'content of a page when looking at its layout.'}
+                          link={'https://cros6y6raga.github.io/social-network/'}
+                    />
                 </div>
             </div>
         </div>

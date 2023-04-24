@@ -4,14 +4,15 @@ import style from './Work.module.scss';
 type PropsType = {
     title: string,
     description: string,
-    style:any
+    style: any,
+    link: string
 }
 
 function Work(props: PropsType) {
     return (
         <div className={style.work}>
             <div className={style.imgContainer} style={props.style}>
-                <a className={style.workButton} href="#">
+                <a className={style.workButton} href={props.link}>
                     view
                 </a>
             </div>
