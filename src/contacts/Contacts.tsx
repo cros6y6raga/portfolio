@@ -12,7 +12,7 @@ function Contacts() {
                     <input className={style.contactsInput} type="text" placeholder={'E-mail'}/>
                     <textarea className={style.contactsTextarea} placeholder={'Message'}></textarea>
                 </form>
-                <a className={style.contactsSend} href="">SEND MESSAGE</a>
+                <button className={style.contactsSend} type={'submit'}>send message</button>
             </div>
         </div>
     );
