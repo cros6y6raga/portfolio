@@ -4,39 +4,39 @@
 .contactsBlock {
   background-color: $bgColor;
   padding-bottom: 50px;
-}
 
-.contactsContainer {
-  flex-direction: column;
-  justify-content: flex-start;
-}
+  .contactsContainer {
+    flex-direction: column;
+    justify-content: flex-start;
 
-.title {
-  color: $textColor;
-  font-family: $TitleFontFamily;
-}
+    .title {
+      color: $textColor;
+      font-family: $TitleFontFamily;
+    }
+  }
 
-.contactsForm {
-  width: 280px;
-  border: 1px solid;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  margin-bottom: 40px;
-}
+  .contactsForm {
+    width: 280px;
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 40px;
+  }
 
-.contactsInput {
-  margin-bottom: 5px;
-}
+  .contactsInput {
+    margin-bottom: 5px;
+  }
 
-.contactsTextarea {
-  height: 100px;
-}
+  .contactsTextarea {
+    height: 100px;
+  }
 
-.contactsSend {
-  font-family: $TextFontFamily;
-  color: $textColor;
-  text-decoration: none;
-  padding: 10px;
-  background-color: $primaryColor;
+  .contactsSend {
+    font-family: $TextFontFamily;
+    color: $textColor;
+    text-decoration: none;
+    padding: 10px;
+    background-color: $primaryColor;
+  }
 }
