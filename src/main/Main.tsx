@@ -2,11 +2,25 @@ import React from 'react';
 import style from './Main.module.scss';
 import styleContainer from '../common/styles/Container.module.css'
 import mainImage from '../assets/image/EhZRBnTnFcA.jpg';
+import Particles from 'react-tsparticles';
 
 function Main() {
 
+    const particlesOptions = {
+        particles: {
+            number: {
+                value: 80,
+                density: {
+                    enable: true,
+                    value_area: 800
+                }
+            }
+        }
+    }
+
     return (
         <div className={style.mainBlock}>
+            <Particles className={style.particles} params={particlesOptions}/>
             <div className={styleContainer.container}>
                 <div className={style.text}>
                     <span>Hi There</span>
