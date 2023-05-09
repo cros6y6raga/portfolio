@@ -24,16 +24,16 @@ function Main() {
         <div className={style.mainBlock}>
             <Particles className={style.particles} params={particlesOptions}/>
             <Fade top>
-            <div className={styleContainer.container}>
-                <div className={style.text}>
-                    <span>Hi There</span>
-                    <h1>I am Vladimir Brazhnikov</h1>
-                    <p>Front-end developer</p>
+                <div className={styleContainer.container}>
+                    <div className={style.text}>
+                        <span>Hi There</span>
+                        <h1>I am Vladimir Brazhnikov</h1>
+                        <p>Front-end developer</p>
+                    </div>
+                    <div className={style.photo}>
+                        <img className={style.mainImg} src={mainImage} alt=""/>
+                    </div>
                 </div>
-                <div className={style.photo}>
-                    <img className={style.mainImg} src={mainImage} alt=""/>
-                </div>
-            </div>
             </Fade>
         </div>
     );
