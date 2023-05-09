@@ -6,6 +6,8 @@ import Particles from 'react-tsparticles';
 
 function Main() {
 
+    const Fade = require("react-reveal/Fade");
+
     const particlesOptions = {
         particles: {
             number: {
@@ -21,6 +23,7 @@ function Main() {
     return (
         <div className={style.mainBlock}>
             <Particles className={style.particles} params={particlesOptions}/>
+            <Fade top>
             <div className={styleContainer.container}>
                 <div className={style.text}>
                     <span>Hi There</span>
@@ -31,6 +34,7 @@ function Main() {
                     <img className={style.mainImg} src={mainImage} alt=""/>
                 </div>
             </div>
+            </Fade>
         </div>
     );
 }
