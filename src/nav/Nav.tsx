@@ -9,16 +9,40 @@ function Nav() {
             {/*<a href="">Skills</a>*/}
             {/*<a href="">Works</a>*/}
             {/*<a href="">Contacts</a>*/}
-            <Link to="main">
-                Main
-            </Link>
-            <Link to="skills">
+            <Link
+                activeClass={style.active}
+                to="main"
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+            >
+                Main</Link>
+            <Link
+                activeClass={style.active}
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+                to="skills">
                 Skills
             </Link>
-            <Link to="works">
+            <Link
+                activeClass={style.active}
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+                to="works">
                 Works
             </Link>
-            <Link to="contacts">
+            <Link
+                activeClass={style.active}
+                spy={true}
+                smooth={true}
+                offset={1}
+                duration={500}
+                to="contacts">
                 Contacts
             </Link>
         </div>
