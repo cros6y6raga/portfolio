@@ -8,21 +8,21 @@ function Main() {
 
     const Fade = require("react-reveal/Fade");
 
-    const particlesOptions = {
-        particles: {
-            number: {
-                value: 80,
-                density: {
-                    enable: true,
-                    value_area: 800
-                }
-            }
-        }
-    }
+    // const particlesOptions = {
+    //     particles: {
+    //         number: {
+    //             value: 80,
+    //             density: {
+    //                 enable: true,
+    //                 value_area: 800
+    //             }
+    //         }
+    //     }
+    // }
 
     return (
-        <div className={style.mainBlock}>
-            <Particles className={style.particles} params={particlesOptions}/>
+        <div id='main' className={style.mainBlock}>
+            {/*<Particles className={style.particles} params={particlesOptions}/>*/}
             <Fade top>
                 <div className={styleContainer.container}>
                     <div className={style.text}>
