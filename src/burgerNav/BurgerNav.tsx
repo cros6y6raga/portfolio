@@ -5,6 +5,7 @@ import {Link, animateScroll as scroll} from "react-scroll";
 function BurgerNav() {
     return (
         <div className={style.burgerNav}>
+            <div className={style.burgerNavItems}>
             <Link
                 activeClass={style.active}
                 to="main"
@@ -41,6 +42,7 @@ function BurgerNav() {
                 to="contacts">
                 Contacts
             </Link>
+            </div>
         </div>
     );
 }

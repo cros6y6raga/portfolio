@@ -1,25 +1,28 @@
 @import '../common/styles/sass/Variables';
 
 .burgerNav {
-  width: 300px;
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: space-between;
+  width: 100%;
   background-color: $bgSecondColor;
 
-  a {
-    text-decoration: none;
-    color: #ffffff;
-    cursor: pointer;
+  .burgerNavItems {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
 
-    &:hover {
+    a {
       text-decoration: none;
-      color: $primaryColor;
-    }
-  }
+      color: #ffffff;
+      cursor: pointer;
 
-  @media screen and (min-width: 400px) {
-    display: none;
+      &:hover {
+        text-decoration: none;
+        color: $primaryColor;
+      }
+    }
+
+    @media screen and (min-width: 400px) {
+      display: none;
+    }
   }
 }
