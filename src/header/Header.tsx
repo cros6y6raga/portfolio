@@ -6,7 +6,7 @@ import BurgerNav from "../burgerNav/BurgerNav";
 function Header() {
     return (
         <div className={style.header}>
-            {/*<Nav/>*/}
+            <Nav/>
             <BurgerNav/>
         </div>
     );
