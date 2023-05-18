@@ -3,7 +3,7 @@ import style from './BurgerNav.module.scss';
 import {Link, animateScroll as scroll} from "react-scroll";
 
 function BurgerNav() {
-    const [menuIsOpen, setMenuIsOpen]=useState(false)
+    const [menuIsOpen, setMenuIsOpen] = useState(false)
     const onBurgerBtnClick = () => {
         setMenuIsOpen(
             !menuIsOpen
@@ -12,7 +12,7 @@ function BurgerNav() {
     }
     return (
         <div className={style.burgerNav}>
-            <div className={menuIsOpen?`${style.burgerNavItems} ${style.show}`:style.burgerNavItems}>
+            <div className={menuIsOpen ? `${style.burgerNavItems} ${style.show}` : style.burgerNavItems}>
                 <Link
                     activeClass={style.active}
                     to="main"
