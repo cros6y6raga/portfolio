@@ -2,13 +2,20 @@
 
 .burgerNav {
   width: 100%;
-  background-color: $bgSecondColor;
+  height: 100%;
+  //background-color: $bgSecondColor;
+  position: relative;
 
   .burgerNavItems {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+    //display: flex;
+    //align-items: center;
+    //flex-direction: column;
+    //justify-content: space-between;
+    background-color: lightblue;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    display: none;
 
 
     a {
@@ -21,6 +28,15 @@
         color: $primaryColor;
       }
     }
+    .active{
+      color: $primaryColor;
+    }
+  }
+  .show{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .burgerBtn {
     width: 30px;

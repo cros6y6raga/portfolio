@@ -1,11 +1,18 @@
-import React from 'react';
+import React, {useState} from 'react';
 import style from './BurgerNav.module.scss';
 import {Link, animateScroll as scroll} from "react-scroll";
 
 function BurgerNav() {
+    const [menuIsOpen, setMenuIsOpen]=useState(false)
+    const onBurgerBtnClick = () => {
+        setMenuIsOpen(
+            !menuIsOpen
+        )
+        console.log(menuIsOpen)
+    }
     return (
         <div className={style.burgerNav}>
-            <div className={style.burgerNavItems}>
+            <div className={menuIsOpen?`${style.burgerNavItems} ${style.show}`:style.burgerNavItems}>
                 <Link
                     activeClass={style.active}
                     to="main"
@@ -43,7 +50,7 @@ function BurgerNav() {
                     Contacts
                 </Link>
             </div>
-            <div className={style.burgerBtn}></div>
+            <div onClick={onBurgerBtnClick} className={style.burgerBtn}></div>
         </div>
     );
 }
